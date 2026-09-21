@@ -104,18 +104,20 @@ h1 {
     max-width: 1200px;
 }
 
-#projects.list .projects-button .content{
+#projects-list .projects-button .content{
     display: flex;
-    justify-content: center;
     justify-self: center;
+    justify-content: left;
+}
 
-    .h2 {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        margin-left: 20px;
-        margin-top: 100%;
-    }
+#projects-list .projects-button .content h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-self: first baseline;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #E0E0E0;
 }
 
 .projects-button {
