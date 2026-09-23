@@ -95,7 +95,7 @@ h1 {
 /* projects */
 #projects-list {
     display: grid;
-    position:relative;
+    position: relative;
     top: 50px;
     grid-template-columns: repeat(3, minmax(250px, 1fr));
     gap: 10px;
@@ -106,17 +106,21 @@ h1 {
 
 #projects-list .projects-button .content{
     display: flex;
-    justify-self: center;
-    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
 }
 
 #projects-list .projects-button .content h2 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    align-self: first baseline;
-    margin-left: 20px;
-    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    color: #E0E0E0;
+}
+
+#projects-list .projects-button .content p {
+    margin-top: 15px;
+    font-size: 20;
     color: #E0E0E0;
 }
 
