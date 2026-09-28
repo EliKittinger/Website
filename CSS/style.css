@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Nuoso SIL';
+  src: url('Assets/Nuoso_SIL (1).zip') format('woff2');
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +11,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family:  'CustomFont', Nuoso SIL;
     font-size: 12px;
     line-height:  1.5;
     background: #162536;
@@ -90,6 +96,29 @@ h1 {
    padding-bottom: 50px;
    color: #E0E0E0;
    font-size: 50px;
+}
+
+h3 {
+   text-align: center;
+   padding-top: 25px;
+   padding-bottom: 50px;
+   color: #E0E0E0;
+   font-size: 35px;
+}
+
+#highlighted-project {
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+    margin-left: 50px;
+    height: 50vh;
+    width: 55vw;
+    border-radius: 20px;
+    border: 2px;
+    border-style: solid;
+
+    border-color: #030C17;
+    background: #243242;
 }
 
 /* projects */
