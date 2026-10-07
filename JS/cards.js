@@ -14,48 +14,6 @@ const cards = [
         "desc": "A Java Minecraft library for Spigot API designed to make initialization and sorting of commands and subcommands both more efficient and modular."
     },
     {
-        "title": "GuestList",
-        "link": 'https://github.com/Rocket-Plugins/cmdface',
-        "imageKey": "Assets/Images/rocketPlugins.png",
-        "desc": "A Java Minecraft Spigot plugin implementing CMDFace and SQLite to let server administrators safely put the power of whitelisting into the hands of the players."
-    },
-    {
-        "title": "Portfolio Website",
-        "link": 'https://github.com/EliKittinger/Website',
-        "imageKey": "Assets/Images/Website.png",
-        "desc": "My personal website, written in HTML, JavaScript, and CSS."
-    },
-    {
-        "title": "CMDFace",
-        "link": 'https://github.com/Rocket-Plugins/cmdface',
-        "imageKey": "Assets/Images/rocketPlugins.png",
-        "desc": "A Java Minecraft library for Spigot API designed to make initialization and sorting of commands and subcommands both more efficient and modular."
-    },
-    {
-        "title": "GuestList",
-        "link": 'https://github.com/Rocket-Plugins/cmdface',
-        "imageKey": "Assets/Images/rocketPlugins.png",
-        "desc": "A Java Minecraft Spigot plugin implementing CMDFace and SQLite to let server administrators safely put the power of whitelisting into the hands of the players."
-    },
-    {
-        "title": "Portfolio Website",
-        "link": 'https://github.com/EliKittinger/Website',
-        "imageKey": "Assets/Images/Website.png",
-        "desc": "My personal website, written in HTML, JavaScript, and CSS."
-    },
-    {
-        "title": "CMDFace",
-        "link": 'https://github.com/Rocket-Plugins/cmdface',
-        "imageKey": "Assets/Images/rocketPlugins.png",
-        "desc": "A Java Minecraft library for Spigot API designed to make initialization and sorting of commands and subcommands both more efficient and modular."
-    },
-    {
-        "title": "GuestList",
-        "link": 'https://github.com/Rocket-Plugins/cmdface',
-        "imageKey": "Assets/Images/rocketPlugins.png",
-        "desc": "A Java Minecraft Spigot plugin implementing CMDFace and SQLite to let server administrators safely put the power of whitelisting into the hands of the players."
-    },
-    {
         "title": "Portfolio Website",
         "link": 'https://github.com/EliKittinger/Website',
         "imageKey": "Assets/Images/Website.png",
