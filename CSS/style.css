@@ -3,6 +3,11 @@
   src: url('Assets/Nuoso_SIL (1).zip') format('woff2');
 }
 
+html {
+    scrollbar-gutter: stable;
+    overflow-y: scroll;
+}
+
 :root {
     color-scheme: dark;
     --color-background: #080e19;
@@ -64,8 +69,10 @@ img {
 
 /*navbar*/
 .navbar {
+    padding-right: calc(100vw - 100%);
     background: var(--color-surface);
     padding: 20px;
+    width: 100vw;
 }
 
 .navbar .container {
